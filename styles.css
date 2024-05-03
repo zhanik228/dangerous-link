@@ -1,0 +1,46 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.text-yellow {
+    color: yellow;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.main-title {
+    font-weight: 700;
+    margin-bottom: 40px;
+    flex: 1;
+}
+
+.content {
+    flex: 2;
+}
+
+.second-title {
+    margin-bottom: 80px;
+    font-size: 36px;
+}
+
+.footer-title {
+    font-size: 32px;
+}
+
