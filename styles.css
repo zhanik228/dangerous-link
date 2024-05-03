@@ -17,6 +17,16 @@ body {
     padding: 0 15px;
 }
 
+.logo {
+    width: 128px;
+}
+
+@media screen and (max-width: 700px) {
+    .logo {
+        width: 64px;
+    }
+}
+
 .text-yellow {
     color: yellow;
 }
@@ -27,12 +37,32 @@ body {
 
 .main-title {
     font-weight: 700;
+    margin-top: 20px;
     margin-bottom: 40px;
     flex: 1;
 }
 
-.content {
+@media screen and (max-width: 910px) {
+    .main-title {
+        font-size: 24px;
+    }
+}
+
+/* @media screen and (max-width: 700px) {
+    .main-title {
+        font-size: 24px;
+    }
+} */
+
+.content-container {
     flex: 2;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.content {
+
 }
 
 .second-title {
@@ -40,7 +70,26 @@ body {
     font-size: 36px;
 }
 
+@media screen and (max-width: 910px) {
+    .second-title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .second-title {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+}
+
 .footer-title {
     font-size: 32px;
+}
+
+@media screen and (max-width: 700px) {
+    .footer-title {
+        font-size: 24px;
+    }
 }
 
